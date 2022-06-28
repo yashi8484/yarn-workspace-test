@@ -6,5 +6,10 @@
   "author": "yashi8484",
   "license": "MIT",
   "private": true,
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "dompurify": "^2.3.8"
+  }
 }

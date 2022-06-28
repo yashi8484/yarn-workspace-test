@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import DOMPurify from 'dompurify';
+
+console.log(DOMPurify.sanitize('this is test message'))
 
 function App() {
   const [count, setCount] = useState(0)

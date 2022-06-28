@@ -1,0 +1,8 @@
+{
+  "name": "yarn-workspace-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yashi8484/yarn-workspace-test.git",
+  "author": "yashi8484",
+  "license": "MIT"
+}

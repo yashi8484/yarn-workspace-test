@@ -4,5 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/yashi8484/yarn-workspace-test.git",
   "author": "yashi8484",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/*"]
 }

@@ -6,5 +6,5 @@
   "author": "yashi8484",
   "license": "MIT",
   "private": true,
-  "workspaces": ["packages/*"]
+  "workspaces": ["packages/package-a", "packages/package-b"]
 }

@@ -9,3 +9,12 @@ updates:
     labels:
       - "package-a"
       - "dependencies"
+  - package-ecosystem: "npm"
+    directory: '/'
+    schedule:
+      interval: "daily"
+    reviewers:
+      - yashi8484
+    labels:
+      - "workspace"
+      - "dependencies"

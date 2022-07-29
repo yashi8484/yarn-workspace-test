@@ -10,14 +10,15 @@
   "schedule": [
     "* 3 * * *"
   ],
+  "rangeStrategy": "update-lockfile",
   "packageRules": [
     {
-      "additionalBranchPrefix": "{{parentDir}}-",
+      "additionalBranchPrefix": "{{parentDir}}/",
       "matchFiles": ["packages/package-a/package.json"],
       "addLabels": ["package-a"]
     },
     {
-      "additionalBranchPrefix": "{{parentDir}}-",
+      "additionalBranchPrefix": "{{parentDir}}/",
       "matchFiles": ["packages/package-b/package.json"],
       "addLabels": ["package-b"]
     }

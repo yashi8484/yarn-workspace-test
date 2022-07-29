@@ -1,6 +1,25 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:base",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "enabledManagers": ["npm"],
+  "labels": ["dependencies"],
+  "prConcurrentLimit": 16,
+  "schedule": [
+    "* 3 * * *"
+  ],
+  "packageRules": [
+    {
+      "additionalBranchPrefix": "{{parentDir}}-",
+      "matchFiles": ["packages/package-a/package.json"],
+      "addLabels": ["package-a"]
+    },
+    {
+      "additionalBranchPrefix": "{{parentDir}}-",
+      "matchFiles": ["packages/package-b/package.json"],
+      "addLabels": ["package-b"]
+    }
   ]
 }

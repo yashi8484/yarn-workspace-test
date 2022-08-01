@@ -5,7 +5,8 @@
     ":timezone(Asia/Tokyo)",
     ":rebaseStalePrs",
     ":prHourlyLimitNone",
-    ":maintainLockFilesWeekly"
+    ":maintainLockFilesWeekly",
+    ":automergeTypes"
   ],
   "enabledManagers": ["npm"],
   "labels": ["dependencies"],

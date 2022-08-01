@@ -3,21 +3,19 @@
   "extends": [
     "config:base",
     ":timezone(Asia/Tokyo)",
-    ":preserveSemverRanges"
+    ":rebaseStalePrs",
+    ":prHourlyLimitNone",
+    ":maintainLockFilesWeekly"
   ],
   "enabledManagers": ["npm"],
   "labels": ["dependencies"],
   "prConcurrentLimit": 16,
-  "prHourlyLimit": 0,
   "schedule": [
     "* 3 * * *"
   ],
   "rangeStrategy": "update-lockfile",
   "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": [
-      "* 3 * * *"
-    ]
+    "groupName": "Lock file maintenance"
   },
   "packageRules": [
     {

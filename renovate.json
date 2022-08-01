@@ -15,7 +15,7 @@
   ],
   "rangeStrategy": "update-lockfile",
   "lockFileMaintenance": {
-    "groupName": "Lock file maintenance"
+    "additionalBranchPrefix": ""
   },
   "packageRules": [
     {

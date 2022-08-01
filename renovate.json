@@ -13,10 +13,7 @@
   "schedule": [
     "* 3 * * *"
   ],
-  "rangeStrategy": "update-lockfile",
-  "lockFileMaintenance": {
-    "additionalBranchPrefix": ""
-  },
+  "rangeStrategy": "bump",
   "packageRules": [
     {
       "additionalBranchPrefix": "{{parentDir}}/",

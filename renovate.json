@@ -11,6 +11,12 @@
     "* 3 * * *"
   ],
   "rangeStrategy": "update-lockfile",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "* 3 * * *"
+    ]
+  },
   "packageRules": [
     {
       "additionalBranchPrefix": "{{parentDir}}/",

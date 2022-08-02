@@ -12,7 +12,7 @@
   "labels": ["dependencies"],
   "prConcurrentLimit": 16,
   "schedule": [
-    "* 3 * * *"
+    "* */1 * * *"
   ],
   "rangeStrategy": "bump",
   "packageRules": [

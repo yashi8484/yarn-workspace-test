@@ -911,7 +911,7 @@ vite@^2.9.9:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vue-tsc@^0.39.0:
+vue-tsc@^0.39.4:
   version "0.39.4"
   resolved "https://registry.yarnpkg.com/vue-tsc/-/vue-tsc-0.39.4.tgz#4ca8d252de912e0f7fbcc097742a506ce8d89f7c"
   integrity sha512-oGFuAdSt8Q1NatnyyJheW0P/8Sk9RDMWPNzeMHXl1OOnoXrbjz2miMcccujySCpA48+AhzdtyFY1PL0XTPsOSg==

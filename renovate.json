@@ -3,7 +3,6 @@
   "extends": [
     "config:base",
     ":timezone(Asia/Tokyo)",
-    ":rebaseStalePrs",
     ":prHourlyLimitNone",
     ":maintainLockFilesWeekly",
     ":automergeTypes"
@@ -11,6 +10,7 @@
   "enabledManagers": ["npm"],
   "labels": ["dependencies"],
   "prConcurrentLimit": 16,
+  "automergeStrategy": "merge-commit",
   "schedule": [
     "* */1 * * *"
   ],

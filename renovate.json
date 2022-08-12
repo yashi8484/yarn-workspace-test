@@ -10,7 +10,6 @@
   "enabledManagers": ["npm"],
   "labels": ["dependencies"],
   "prConcurrentLimit": 16,
-  "automergeStrategy": "merge-commit",
   "schedule": [
     "* */1 * * *"
   ],

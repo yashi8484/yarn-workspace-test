@@ -17,7 +17,7 @@
     "* */1 * * *"
   ],
   "ignoreTests": true,
-  "rangeStrategy": "bump",
+  "rangeStrategy": "update-lockfile",
   "packageRules": [
     {
       "additionalBranchPrefix": "{{parentDir}}/",

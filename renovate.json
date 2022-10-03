@@ -5,7 +5,8 @@
     ":timezone(Asia/Tokyo)",
     ":prHourlyLimitNone",
     ":maintainLockFilesWeekly",
-    ":automergeTypes"
+    ":automergeTypes",
+    "local>presets/test.json"
   ],
   "enabledManagers": ["npm"],
   "labels": ["dependencies"],
@@ -17,17 +18,5 @@
     "* */1 * * *"
   ],
   "ignoreTests": true,
-  "rangeStrategy": "update-lockfile",
-  "packageRules": [
-    {
-      "additionalBranchPrefix": "{{parentDir}}/",
-      "matchFiles": ["packages/package-a/package.json"],
-      "addLabels": ["package-a"]
-    },
-    {
-      "additionalBranchPrefix": "{{parentDir}}/",
-      "matchFiles": ["packages/package-b/package.json"],
-      "addLabels": ["package-b"]
-    }
-  ]
+  "rangeStrategy": "update-lockfile"
 }

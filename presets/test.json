@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "additionalBranchPrefix": "{{parentDir}}/",
+      "matchFiles": ["packages/package-a/package.json"],
+      "addLabels": ["package-a"]
+    },
+    {
+      "additionalBranchPrefix": "{{parentDir}}/",
+      "matchFiles": ["packages/package-b/package.json"],
+      "addLabels": ["package-b"]
+    }
+  ]
+}

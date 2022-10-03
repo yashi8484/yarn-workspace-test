@@ -6,7 +6,7 @@
     ":prHourlyLimitNone",
     ":maintainLockFilesWeekly",
     ":automergeTypes",
-    "local>yashi8484/yarn-workspace-test//presets/test.json"
+    "local>yashi8484/yarn-workspace-test//presets/test"
   ],
   "enabledManagers": ["npm"],
   "labels": ["dependencies"],

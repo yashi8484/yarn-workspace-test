@@ -6,7 +6,7 @@
     ":prHourlyLimitNone",
     ":maintainLockFilesWeekly",
     ":automergeTypes",
-    "local>presets/test.json"
+    "presets/test.json"
   ],
   "enabledManagers": ["npm"],
   "labels": ["dependencies"],
